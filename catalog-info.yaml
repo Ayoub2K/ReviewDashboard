@@ -8,3 +8,10 @@ spec:
   type: other
   lifecycle: unknown
   owner: ayoub-a
+# Additional plugin integrations
+sonarqube:
+  instances:
+      # Additional instances can be added, but default will be used unless otherwise specified
+    - name: default
+      baseUrl: https://csd.pl.s2-eu.capgemini.com/sonarqube
+      apiKey: ${API_KEY} // ASK FOR THE CAP API KEY USED ON CAP TEST PROJECT
