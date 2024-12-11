@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: reviewdashboard
   annotations:
+    sonarqube.org/project-key: default/backdora-test
     github.com/project-slug: Ayoub2K/ReviewDashboard
 spec:
   type: other
